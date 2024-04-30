@@ -12,7 +12,7 @@ body {
 }
 p {
     margin: auto;
-    font-size: 20px;
+    font-size: 120%;
 }
 .Y {
     background-color: rgba(255, 255, 194, 0.849);
