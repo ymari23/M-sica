@@ -7,8 +7,11 @@
  } 
 
 body {
-    margin: 8px;
+    padding: 0px;
+    margin: 0px;
     display: block;
+    background: url('coiso/melim-hipnotizou-ao-vivo.mp4') no-repeat;
+    background-size: cover;
 }
 p {
     margin: auto;
@@ -42,7 +45,12 @@ p {
 }
 main {
     columns:2;
-    
+    object-fit: contain;
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
 }
 h1 {
     text-align: center;
@@ -77,6 +85,14 @@ iframe {
 div {
     align-items: center;
     text-align: center;
+}
+video {
+    position: fixed;
+    object-fit: cover;
+    width: 100%;
+    z-index: -10;
+    margin: 0px;
+    padding: 0px;
 }
 
 
